@@ -1,0 +1,681 @@
+Mongo:
+  Host: '127.0.0.1'
+  DBName: 'HCFactions'
+serverName: HCFactions
+networkWebsite: cobelpvp.com
+LIMITER:
+  SHARPNESS: 2
+  KNOCKBACK: 0
+  PUNCH: 0
+  FIRE_ASPECT: 0
+  THORNS: 0
+  PROTECTION: 2
+  FLAME: 1
+  POWER: 3
+glowstoneMountain: true
+startingTimer: true
+isUhcHealing: false
+idleCheck: true
+passiveTag: true
+waterPlacementInClaims: false
+blockRemoval: false
+blockEntitiesThroughPortals: true
+archerTagColor: DARK_RED
+defaultRelationColor: RED
+oldhcf: true
+pvpClasses:
+  archer: true
+  bard: true
+minerWorld:
+  regen:
+    COAL_ORE: 120
+    IRON_ORE: 120
+    GOLD_ORE: 90
+    DIAMOND_ORE: 60
+potions:
+  REGEN:
+    splash: false
+    drinkables: false
+  SPEED:
+    splash: true
+    drinkables: true
+  FIRE_RESISTANCE:
+    splash: true
+    drinkables: true
+  POISON:
+    splash: true
+    drinkables: true
+  INSTANT_HEAL:
+    splash: true
+    drinkables: true
+  NIGHT_VISION:
+    splash: true
+    drinkables: true
+  WEAKNESS:
+    splash: false
+    drinkables: false
+  STRENGTH:
+    splash: false
+    drinkables: false
+  SLOWNESS:
+    splash: true
+    drinkables: true
+  INSTANT_DAMAGE:
+    splash: false
+    drinkables: false
+  WATER_BREATHING:
+    splash: true
+    drinkables: true
+  INVISIBILITY:
+    splash: true
+    drinkables: true
+Crates:
+  Koth:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: true
+    Firework: false
+    Preview: true
+    Block: ENDER_CHEST
+    Color: RED
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6[&4Koth Fire&6]'
+        Amount: 1
+        Enchantments:
+          - DAMAGE_ALL-2
+          - DURABILITY-5
+          - FIRE_ASPECT-2
+        Lore: []
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6[&4Koth Looting&6]'
+        Amount: 1
+        Enchantments:
+          - DAMAGE_ALL-2
+          - DURABILITY-5
+          - LOOT_BONUS_MOBS-5
+        Lore: []
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&6[&4KothArmor&6]'
+        Amount: 1
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-5
+        Lore: []
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&6[&4KothArmor&6]'
+        Amount: 1
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-5
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&6[&4KothArmor&6]'
+        Amount: 1
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-5
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&6[&4KothArmor&6]'
+        Amount: 1
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-5
+          - PROTECTION_FALL-5
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&6[&4Koth Pickaxe&6]'
+        Amount: 1
+        Enchantments:
+          - DIG_SPEED-5
+          - DURABILITY-10
+          - LOOT_BONUS_BLOCKS-5
+        Lore: []
+      '8':
+        Type: ITEM
+        Item Type: BOW
+        Item Data: 0
+        Name: '&6[&4Koth Bow&6]'
+        Amount: 1
+        Enchantments:
+          - ARROW_DAMAGE-3
+          - ARROW_FIRE-1
+          - DURABILITY-5
+          - ARROW_INFINITE-1
+        Lore: []
+      '9':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '10':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 1
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '11':
+        Type: ITEM
+        Item Type: BEACON
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+  Citadel:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: true
+    Firework: true
+    Preview: true
+    Block: ENDER_CHEST
+    Color: BLUE
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6[&9Citadel Fire&6]'
+        Amount: 1
+        Enchantments:
+          - DAMAGE_ALL-2
+          - DURABILITY-10
+          - FIRE_ASPECT-3
+        Lore: []
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&6[&9Citadel Looting&6]'
+        Amount: 1
+        Enchantments:
+          - DAMAGE_ALL-2
+          - DURABILITY-10
+          - LOOT_BONUS_MOBS-8
+        Lore: []
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&6[&9CitadelArmor&6]'
+        Amount: 1
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-10
+        Lore: []
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&6[&9CitadelArmor&6]'
+        Amount: 1
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-10
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&6[&9CitadelArmor&6]'
+        Amount: 1
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-10
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&6[&9CitadelArmor&6]'
+        Amount: 1
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - PROTECTION_FALL-8
+          - DURABILITY-10
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: BOW
+        Item Data: 0
+        Name: '&6[&9Citadel Bow&6]'
+        Amount: 1
+        Enchantments:
+          - ARROW_DAMAGE-3
+          - ARROW_FIRE-1
+          - DURABILITY-10
+          - ARROW_INFINITE-1
+        Lore: []
+      '8':
+        Type: ITEM
+        Item Type: ENDER_PEARL
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '9':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&6[&9Citadel Pickaxe&6]'
+        Amount: 1
+        Enchantments:
+          - DIG_SPEED-5
+          - DURABILITY-10
+          - LOOT_BONUS_BLOCKS-10
+        Lore: []
+      '10':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '11':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 1
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+  Vip:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: YELLOW
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&7[&6Vip&7]'
+        Amount: 1
+        Enchantments:
+          - DAMAGE_ALL-2
+          - DURABILITY-5
+          - LOOT_BONUS_MOBS-3
+        Lore: []
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&7[&6Vip&7]'
+        Amount: 1
+        Enchantments:
+          - DIG_SPEED-5
+          - DURABILITY-5
+          - LOOT_BONUS_BLOCKS-5
+        Lore: []
+      '3':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '4':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&7[&6Vip&7]'
+        Amount: 3
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-3
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&7[&6Vip&7]'
+        Amount: 3
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-3
+        Lore: []
+      '8':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&7[&6Vip&7]'
+        Amount: 3
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-3
+        Lore: []
+      '9':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&7[&6Vip&7]'
+        Amount: 3
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-3
+          - PROTECTION_FALL-4
+        Lore: []
+  Starter:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: GREEN
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: SUGAR_CANE
+        Item Data: 0
+        Name: NONE
+        Amount: 24
+        Enchantments: []
+        Lore: []
+      '2':
+        Type: ITEM
+        Item Type: MELON
+        Item Data: 0
+        Name: NONE
+        Amount: 24
+        Enchantments: []
+        Lore: []
+      '3':
+        Type: ITEM
+        Item Type: NETHER_STALK
+        Item Data: 0
+        Name: NONE
+        Amount: 24
+        Enchantments: []
+        Lore: []
+      '4':
+        Type: ITEM
+        Item Type: SULPHUR
+        Item Data: 0
+        Name: NONE
+        Amount: 24
+        Enchantments: []
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: BLAZE_ROD
+        Item Data: 0
+        Name: NONE
+        Amount: 24
+        Enchantments: []
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&7[&aStarter&7]'
+        Amount: 1
+        Enchantments:
+          - LOOT_BONUS_BLOCKS-3
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&7[&aStarter&7]'
+        Amount: 1
+        Enchantments:
+          - LOOT_BONUS_MOBS-3
+        Lore: []
+  Cobel:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: GOLD
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: '&7[&6&nCobelPvP&7]'
+        Amount: 2
+        Enchantments:
+          - DAMAGE_ALL-2
+          - DURABILITY-5
+          - LOOT_BONUS_MOBS-4
+        Lore: []
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: '&7[&6&nCobelPvP&7]'
+        Amount: 5
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-5
+        Lore: []
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: '&7[&6&nCobelPvP&7]'
+        Amount: 5
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-5
+        Lore: []
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: '&7[&6&nCobelPvP&7]'
+        Amount: 5
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-5
+        Lore: []
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: '&7[&6&nCobelPvP&7]'
+        Amount: 5
+        Enchantments:
+          - PROTECTION_ENVIRONMENTAL-2
+          - DURABILITY-5
+          - PROTECTION_FALL-4
+        Lore: []
+      '6':
+        Type: ITEM
+        Item Type: BOW
+        Item Data: 0
+        Name: '&7[&6&nCobelPvP&7]'
+        Amount: 2
+        Enchantments:
+          - ARROW_DAMAGE-3
+          - ARROW_FIRE-1
+          - DURABILITY-5
+          - ARROW_INFINITE-1
+        Lore: []
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: '&7[&6&nCobelPvP&7]'
+        Amount: 1
+        Enchantments:
+          - DIG_SPEED-5
+          - DURABILITY-10
+          - LOOT_BONUS_BLOCKS-5
+        Lore: []
+      '8':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 1
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '9':
+        Type: ITEM
+        Item Type: EMERALD_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+reclaims:
+  Default:
+    priority: 1
+    permission: 'reclaim.default'
+    commands:
+      - lives set %player% 2
+      - crate key Starter 5 %player%
+      - crate key Vip 3 %player%
+      - give %player% 364 16
+  Basic:
+    priority: 2
+    permission: 'reclaim.basic'
+    commands:
+      - lives set %player% 8
+      - crate key Starter 6 %player%
+      - crate key Vip 5 %player%
+      - give %player% 364 24
+  Archon:
+    priority: 3
+    permission: 'reclaim.archon'
+    commands:
+      - lives set %player% 15
+      - crate key Starter 10 %player%
+      - crate key Vip 10 %player%
+      - give %player% 364 32
+  Ancient:
+    priority: 4
+    permission: 'reclaim.ancient'
+    commands:
+      - lives set %player% 18
+      - crate key Starter 15 %player%
+      - crate key Vip 12 %player%
+      - give %player% 364 32
+  Legend:
+    priority: 5
+    permission: 'reclaim.legend'
+    commands:
+      - lives set %player% 25
+      - crate key Starter 18 %player%
+      - crate key Vip 15 %player%
+      - crate key Cobel 1 %player%
+      - give %player% 364 64
+  Inmortal:
+    priority: 6
+    permission: 'reclaim.inmortal'
+    commands:
+      - lives set %player% 40
+      - crate key Starter 20 %player%
+      - crate key Vip 10 %player%
+      - crate key Cobel 2 %player%
+      - give %player% 364 64
+  Cobel:
+    priority: 7
+    permission: 'reclaim.cobel'
+    commands:
+      - lives set %player% 25
+      - crate key Starter 18 %player%
+      - crate key Vip 15 %player%
+      - crate key Cobel 10 %player%
+      - give %player% 364 16
+  Streamer:
+    priority: 8
+    permission: 'reclaim.streamer'
+    commands:
+      - lives set %player% 16
+      - crate key Starter 15 %player%
+      - crate key Vip 10 %player%
+      - give %player% 364 32
+  Media:
+    priority: 9
+    permission: 'reclaim.media'
+    commands:
+      - lives set %player% 12
+      - crate key Starter 20 %player%
+      - crate key Vip 15 %player%
+      - give %player% 364 32
+  Youtube:
+    priority: 10
+    permission: 'reclaim.youtube'
+    commands:
+      - lives set %player% 25
+      - crate key Starter 20 %player%
+      - crate key Vip 20 %player%
+      - give %player% 364 32
+  Famous:
+    priority: 11
+    permission: 'reclaim.famous'
+    commands:
+      - lives set %player% 40
+      - crate key Starter 18 %player%
+      - crate key Vip 20 %player%
+      - crate key Cobel 3 %player%
+      - give %player% 364 64

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HCFactions:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HCFactions_jar</output-path>
+    <root id="archive" name="HCFactions.jar">
+      <element id="module-output" name="HCFactions" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.13/joda-time-2.10.13.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
